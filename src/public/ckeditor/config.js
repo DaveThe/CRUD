@@ -24,4 +24,5 @@ CKEDITOR.editorConfig = function (config) {
         {name: 'others', groups: ['others']},
         {name: 'about', groups: ['about']}
     ];
+    config.enterMode = CKEDITOR.ENTER_BR;
 };
